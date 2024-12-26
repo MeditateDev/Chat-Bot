@@ -1,0 +1,31 @@
+# Install components
+INSTALL_NODE_MODULES=1
+
+INSTALL_PROXY_ADMIN=1
+INSTALL_CONNECTOR=1
+INSTALL_BOT=1
+INSTALL_PROXY=1
+INSTALL_INTENTSVC=1
+
+# Source directories
+PROXY_ADMIN_DIR=./BackEnd
+CONNECTOR_DIR=./Connector
+BOT_DIR=./cal-callflow-bot
+PROXY_DIR=./Proxy
+INTENTSVC_DIR=./cal-intent-svc
+
+# Services name
+PROXY_ADMIN_SVC_NAME=proxy_admin_svc
+CONNECTOR_SVC_NAME=bot_connector_svc
+BOT_SVC_NAME=call_flow_bot_svc
+PROXY_SVC_NAME=proxy_svc
+INTENTSVC_SVC_NAME=intent_svc
+
+# Apache configuration
+APACHE_CONFIG=./apache_primas_calbotconfig.conf
+
+# Deploy destination
+DESTINATION=/var/www
+
+# Backup destination
+BACKUP_DESTINATION=/var/backups

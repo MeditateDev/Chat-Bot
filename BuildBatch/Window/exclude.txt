@@ -1,0 +1,12 @@
+node_modules
+.git
+BuildBatch
+Logs
+cal-callflow-bot.zip
+example.env
+flow.json
+package-lock.json
+.vscode
+train_data
+data.txt
+model.nlp

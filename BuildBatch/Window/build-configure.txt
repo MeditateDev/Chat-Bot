@@ -1,0 +1,20 @@
+# Install components
+INSTALL_BOT_CONNECTOR=1
+INSTALL_CHAT_BOX=1
+INSTALL_CALLFLOW_BOT=1
+INSTALL_PROXY_ADMIN_PAGE=1
+INSTALL_PROXY_SERVICE=1
+INSTALL_INTENT_SVC=1
+INSTALL_DEPLOY_BATCH=1
+
+# Source Directories
+BOT_CONNECTOR_DIR=..\cal-botconnector\Connector
+CHAT_BOX_DIR=..\cal-botconnector\Client
+CALLFLOW_BOT_DIR=..\cal-callflow-bot
+PROXY_ADMIN_PAGE_DIR=..\cal-proxy\Admin page
+PROXY_SERVICE_DIR=..\cal-proxy\Proxy
+INTENT_SVC_DIR=..\cal-intent-svc
+DEPLOY_BATCH_DIR=.\Linux
+
+# Build destination
+DESTINATION_DIR=.\build

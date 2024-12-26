@@ -1,0 +1,21 @@
+BOT_CONNECTOR_DIR=cal-botconnector\Connector
+CHAT_BOX_DIR=cal-botconnector\Client
+CALLFLOW_BOT_DIR=cal-callflow-bot
+PROXY_ADMIN_PAGE_DIR=cal-proxy\Admin page
+PROXY_SERVICE_DIR=cal-proxy\Proxy
+INTENT_SVC_DIR=cal-intent-svc
+
+BOT_CONNECTOR_SETTING=1
+CHAT_BOX_SETTING=1
+CALLFLOW_BOT_SETTING=1
+PROXY_ADMIN_PAGE_SETTING=1
+PROXY_SERVICE_SETTING=1
+INTENT_SVC_SETTING=1
+
+IMPORT_NODE_MODULES=1
+
+APACHE_CONFIGURE_DIR=C:\Apache24\conf
+APACHE_RUN_BIN_DIR=C:\Apache24\bin
+
+DESTINATION_DIR=D:\Workspace\Primas\Work\CAL\batch-file\deploy
+BACK_UP_DIR=D:\Workspace\Primas\Work\CAL\batch-file\backup
